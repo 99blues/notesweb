@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "notesweb4528da03",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "notesapi",
+    "apiName": "notesapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "notesweb4528da03"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-notesweb-dev-60209-authRole",
+        "unAuthRoleName": "amplify-notesweb-dev-60209-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "notesweb4528da03",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

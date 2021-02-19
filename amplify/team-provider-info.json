@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-notesweb-dev-60209-authRole",
+      "UnauthRoleArn": "arn:aws:iam::448524649920:role/amplify-notesweb-dev-60209-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::448524649920:role/amplify-notesweb-dev-60209-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-notesweb-dev-60209-deployment",
+      "UnauthRoleName": "amplify-notesweb-dev-60209-unauthRole",
+      "StackName": "amplify-notesweb-dev-60209",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:448524649920:stack/amplify-notesweb-dev-60209/0183a9e0-7278-11eb-b9e4-0a949fc6e0c6",
+      "AmplifyAppId": "d37ey9tv3t7p6b"
+    },
+    "categories": {
+      "auth": {
+        "notesweb11d88dbf": {}
+      },
+      "function": {
+        "notesweb4528da03": {
+          "deploymentBucketName": "amplify-notesweb-dev-60209-deployment",
+          "s3Key": "amplify-builds/notesweb4528da03-4b2f49504f4a796d7049-build.zip"
+        }
+      }
+    }
+  }
+}
