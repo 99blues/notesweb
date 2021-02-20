@@ -361,6 +361,44 @@ git push -u origin main
 $ npm install vue-sidebar-menu
 $ npm install --save @fortawesome/fontawesome-free
 
-
-
 ```` 
+
+
+# deploy
+
+### amplify.yml を更新
+
+https://qiita.com/Y_uuu/items/8867bfa3a13ea3406d89
+
+
+1. Amplify コンソールからamplify.ymlをダウンロードして編集。
+2. リポジトリのTOPに配置して
+3. git add / commit
+
+※ バックエンドだけのデプロイの時はビルドチェックが走らない？
+   ⇨　開発中だから？
+   
+
+## フロントエンドのデプロイ
+
+### Gitにpush
+1. Git Serverにpush
+
+
+### Amplify コンソール
+
+1. Amplify コンソールにGitRepositoryを登録する。
+   - 一度、Amplify コンソールからGitサーバと連携すると認証は不要。リポジトリ一覧から選択するだけでOK
+
+2. ロールは作成は初回のみ必要
+3. ロールを選択すると自動でデプロイ＆ビルドが始まる。
+
+
+
+## 動作確認
+
+Amplify コンソールデプロイ画面のURLをクリックするとブラウザでSPAが開く
+
+
+
+   
