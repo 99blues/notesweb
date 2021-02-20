@@ -52,17 +52,17 @@ export default {
           icon: 'fa fa-car'
         },
         {
-          href: '/',
+          href: '/search',
           title: '検索',
           icon: 'fa fa-search-minus'
         },
         {
-          href: '/',
+          href: '/regist',
           title: '通知用車番登録',
           icon: 'fa fa-check-square'
         },
         {
-          href: '/',
+          href: '/setting',
           title: '設定',
           icon: 'fa fa-cog'
         }
